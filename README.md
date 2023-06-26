@@ -188,7 +188,7 @@ I would like to thank Ekpenisi E Raphael for the immense support.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is under the [Creative Commons Zero v1.0 Universal](./CCO.md) license. Using the design created by [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
