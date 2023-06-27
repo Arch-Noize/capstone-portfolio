@@ -10,17 +10,18 @@
     <body>
         <header>
             <div id="nav" class="container">
-                <figure class="burger">
+                <figure id="burger">
                     <i class="fa fa-bars"></i>
                 </figure>
-                <ul id="menu">
-                    <li>
-                        <a href="#"><h4>Home</h4></a>
-                    </li>
-                    <li>
-                        <a href="./about.html"><h4>About</h4></a>
-                    </li>
-                </ul>
+                <div class="menu">
+                    <figure id="cancel">
+                        <i class="fa fa-remove"></i>
+                    </figure>
+                    <ul>
+                        <li class="menu-item"><a href="#front"><h4>Home</h4></a></li>
+                        <li class="menu-item"><a href="./about.html"><h4>About</h4></a></li>
+                    </ul>
+                </div>
             </div>
         </header>
         <section id="front" class="container">
@@ -49,6 +50,8 @@
         </section>
 
         <section class="container" id="program">
+            <h2> Main Program </h2>
+            <hr>
             <div class="card-container">
                 <div class="program-card">
                     <div>
@@ -75,14 +78,29 @@
                     </div>
                 </div>
             </div>
+            <button class="container" id="join">
+                Join CC Global Summit 2015
+            </button>
         </section>
 
-        <section id="speakers">
-
+        <section class="container" id="speakers">
+            <h2> Featured Speakers </h2>
+            <hr>
+            <div class="featured-speaker">
+                <div class="container" id="speaker-image">
+                    <img src="/Assets/speakers/speaker-1.png">
+                </div>
+                <div class="container" id="speaker-detail">
+                    <h3>Yochai Benkler</h3>
+                    <h5>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h5>
+                    <hr>
+                    <p>Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006</p>
+                </div> 
+            </div>
         </section>
         
-        <section id="partner">
-
+        <section class="container" id="partner">
+            
         </section>
 
         <footer>
