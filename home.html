@@ -10,16 +10,18 @@
     <body>
         <header>
             <div id="nav" class="container">
-                <figure id="burger">
+                <figure class="burger" alt="">
                     <i class="fa fa-bars"></i>
                 </figure>
                 <div class="menu">
-                    <figure id="cancel">
-                        <i class="fa fa-remove"></i>
+                    <figure class="cancel" alt="">
+                        <i class="fa fa-times"></i>
                     </figure>
-                    <ul>
+                    <ul class="menu-list">
                         <li class="menu-item"><a href="#front"><h4>Home</h4></a></li>
                         <li class="menu-item"><a href="./about.html"><h4>About</h4></a></li>
+                        <li class="menu-item"><a href="#program"><h4>Program</h4></a></li>
+                        <li class="menu-item"><a href="#partner"><h4>Partners</h4></a></li>
                     </ul>
                 </div>
             </div>
@@ -97,16 +99,32 @@
                     <p>Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006</p>
                 </div> 
             </div>
+            
+            <button class="container" id="more">
+                <p>MORE</p>
+            </button>
         </section>
         
         <section class="container" id="partner">
-            
-        </section>
-
-        <footer>
-            <div id="cc">
+            <h3> Partners </h3>
+            <hr>
+            <div class="container" id="logos">
 
             </div>
+        </section>
+
+        <footer class="contianer" id="cc">
+            <div id="logo">
+                <img src="/Assets/logo.png">
+            </div>
+            <div id="rights">
+                <p>
+                    2023 Creative Commons. <br>
+                    Some rights reserved.
+                </p>
+            </div>
         </footer>
+
+        <script src="./script.js"></script>
     </body>
 </html>

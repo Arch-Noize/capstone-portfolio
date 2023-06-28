@@ -3,30 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="styles.css" rel="stylesheet">
+    <link href="ab-styles.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet"/>
     <title>Summit 2016</title>
 </head>
     <body>
         <header>
-            <div id="nav-content" class="container">
-                <i class="fa fa-bars">
-                <button id="burger">
-                    
-                </button>
-                </i>
-                <ul>
-                    <li>
-                        <a href="./home.html"><h4>Home</h4></a>
-                    </li>
-                    <li>
-                        <a href="./about.html"><h4>About</h4></a>
-                    </li>
-                </ul>
-            </div>   
+            <div id="nav" class="container">
+                <figure class="burger" alt="">
+                    <i class="fa fa-bars"></i>
+                </figure>
+                <div class="menu">
+                    <figure class="cancel" alt="">
+                        <i class="fa fa-times"></i>
+                    </figure>
+                    <ul class="menu-list">
+                        <li class="menu-item"><a href="./home.html"><h4>Home</h4></a></li>
+                        <li class="menu-item"><a href="#"><h4>About</h4></a></li>
+                        <li class="menu-item"><a href="#program"><h4>Program</h4></a></li>
+                        <li class="menu-item"><a href="#partner"><h4>Partners</h4></a></li>
+                    </ul>
+                </div>
+            </div>
         </header>
-        <section id="front">
+        <section id="front" class="container">
             <div class="container" id="hello">
-                <h4>"Hello! Sharing World"</h4>
+                <h5>"Hello! Sharing World"</h5>
                 <h1>CREATIVE COMMONS
                     <br>
                     GLOBAL SUMMIT 
@@ -63,5 +65,7 @@
 
             </div>
         </footer>
+
+        <script src="./script.js"></script>
     </body>
 </html>
