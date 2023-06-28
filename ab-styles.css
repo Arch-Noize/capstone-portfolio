@@ -1,5 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 @import url('styles.css');
 
+body {
+  text-align: center;
+}
 
+#front {
+  background: no-repeat top / contain url("./Assets/mobile-about.png"), #f8f8f8;
+}
+
+#hello {
+  margin: 18px 0px 6px 0px;
+}
+
+#hello h5 {
+  align-self: center;
+  margin-bottom: 0.5em;
+}
+  
+#hello h1 {
+  align-self: center;
+  margin-bottom: 1.5em;
+}
+
+#info {
+  padding: 20px 12px 20px 12px;
+  color: #515151;
+  font-size: 1.1em;
+  line-height: 25px;
+  background-color: #fff;
+}
+
+#contact {
+  padding: 20px 12px 20px 12px;
+  color: #515151;
+  font-size: 1.1em;
+  line-height: 25px;
+  background-color: #f8f8f8;
+}
+
+#contact a {
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+#summit {
+  display: flex;
+  margin-top: 1em;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.3em; 
+  line-height: 30px;
+  letter-spacing: -0.3px;
+  justify-content: center;
+}
+
+#summit > div {
+  width: 90%;
+}
+
+#summit p {
+  font-size: 0.85em;
+  color: #838383;
+}
+
+#summit h3 {
+  margin-top: 0.8em;
+}
+
+#past {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+  align-items: center;
+}
+
+#concierto {
+  width: 90%;
+  padding: 3em;
+  font-weight: 900;
+  font-size: 1.4em; 
+  line-height: 30px;
+  letter-spacing: -0.3px;
+  color: #fff;
+  margin-bottom: 1.6em;
+  background: linear-gradient(#ee4431c7, #ee4431c7), no-repeat left / cover url("./Assets/rawayana.jpg");
+}
 
