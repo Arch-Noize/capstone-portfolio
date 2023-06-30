@@ -263,7 +263,7 @@ hr {
 .program-card p {
   color: #fff;
   font-weight: 700;
-  font-size: 0.7em;
+  font-size: 0.65em;
   line-height: 18px;
   letter-spacing: 0.6px; 
 }
@@ -361,6 +361,10 @@ hr {
   letter-spacing: -0.6px;
 }
 
+.show {
+  display: none;
+}
+
 /* More Button */
 
 #more {
@@ -374,9 +378,6 @@ hr {
   box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
   transition: 0.4s ease-in-out;
   margin-left: 1.2em;
-}
-
-#more p {
   font-size: 1em;
   font-weight: 700;
   line-height: 28px;
@@ -519,7 +520,7 @@ hr {
     display: grid;
     grid-template-columns: 50% 50%;
     flex-wrap: nowrap;
-    width: 80%;
+    width: 90%;
   }
 
   #partner {

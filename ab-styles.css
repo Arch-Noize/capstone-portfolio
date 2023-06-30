@@ -87,3 +87,10 @@ body {
   background: linear-gradient(#ee4431c7, #ee4431c7), no-repeat left / cover url("./Assets/rawayana.jpg");
 }
 
+#partner {
+  display: flex;
+}
+
+#cc {
+  display: flex;
+}
