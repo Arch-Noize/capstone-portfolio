@@ -2,9 +2,9 @@
 
 const burger = document.querySelector('.burger');
 
-const cancel = document.querySelector(".cancel");
+const cancel = document.querySelector('.cancel');
 
-const menuItems = document.querySelectorAll(".menu-item");
+const menuItems = document.querySelectorAll('.menu-item');
 
 function menu() {
   const menu = document.querySelector('.menu');
@@ -19,7 +19,7 @@ burger.addEventListener('click', menu);
 cancel.addEventListener('click', menu);
 
 menuItems.forEach((item) => {
-    item.addEventListener('click', menu);
+  item.addEventListener('click', menu);
 });
 
 // Program Card generation
@@ -27,41 +27,40 @@ menuItems.forEach((item) => {
 const card = [
   {
     id: 1,
-    icon: "./Assets/program/lecture.png",
-    title: "Artists",
-    desc: "Besides RAWAYANA, several guests artists will come to the concert to play alongside",
+    icon: './Assets/program/lecture.png',
+    title: 'Artists',
+    desc: 'Besides RAWAYANA, several guests artists will come to the concert to play alongside',
   },
   {
     id: 2,
-    icon: "./Assets/program/exhibition.png",
-    title: "Photos",
-    desc: "Come and take several pictures with your favorite artists",
+    icon: './Assets/program/exhibition.png',
+    title: 'Photos',
+    desc: 'Come and take several pictures with your favorite artists',
   },
   {
     id: 3,
-    icon: "./Assets/program/forum.png",
-    title: "Meet-ups",
-    desc: "VIP Clients will have a pass that will allow them to meet with an artist of their choosing",
+    icon: './Assets/program/forum.png',
+    title: 'Meet-ups',
+    desc: 'VIP Clients will have a pass that will allow them to meet with an artist of their choosing',
   },
   {
     id: 4,
-    icon: "./Assets/program/workshop.png",
-    title: "Ads",
+    icon: './Assets/program/workshop.png',
+    title: 'Ads',
     desc: "Want your company's name in the concert? Be sure to reach to our Ad department",
   },
   {
     id: 5,
-    icon: "./Assets/program/ignite.png",
-    title: "Location",
-    desc: "This year, #sadico will be held in La Concha Acustica de Andres Bello",
-  }
-]
+    icon: './Assets/program/ignite.png',
+    title: 'Location',
+    desc: 'This year, #sadico will be held in La Concha Acustica de Andres Bello',
+  },
+];
 
-const mainProgram = document.querySelector("#cards");
+const mainProgram = document.querySelector('#cards');
 
-function program () {
-  let works = card.map((item) =>
-   `<div class="card-container">
+function program() {
+  let works = card.map((item) => `<div class="card-container">
       <div class="program-card">
         <div>
           <img src="${item.icon}">
@@ -73,8 +72,7 @@ function program () {
           <p>${item.desc}</p>
         </div>
       </div>
-    </div>`
-  );
+    </div>`);
   works = works.join('');
   mainProgram.innerHTML = works;
 }
@@ -132,13 +130,12 @@ const featured = [
     title: 'Rawayana Chief Producer',
     desc: 'Ryan had been managing, helping, and designing the band ever since they made a record deal back in 2016',
   },
-]
+];
 
-const listSpeakers = document.querySelector("#speakers");
+const listSpeakers = document.querySelector('#speakers');
 
-function featSpeaker () {
-  let speakers = featured.map((item) =>
-  `<div class="featured-speaker ${item.show}">
+function featSpeaker() {
+  let speakers = featured.map((item) => `<div class="featured-speaker ${item.show}">
       <div class="container" id="speaker-image">
         <img src="${item.img}">
       </div>
@@ -149,8 +146,7 @@ function featSpeaker () {
         <p>${item.desc}</p>
       </div> 
     </div>
-  `  
-  );
+  `);
   speakers = speakers.join('');
   listSpeakers.innerHTML = speakers;
 }
@@ -159,14 +155,12 @@ window.addEventListener('DOMContentLoaded', featSpeaker);
 
 // Show More / Less Button
 
-const more = document.querySelector("#more");
+const more = document.querySelector('#more');
 
-function showMore () {
+function showMore() {
   const hidden = document.querySelectorAll('.show');
 
-  hidden.forEach((item) =>
-    item.classList.remove('show')
-  );
+  hidden.forEach((item) => item.classList.remove('show'));
 
   more.classList.add('show');
 }

@@ -147,10 +147,6 @@ hr {
   background: no-repeat left / cover url("./Assets/mobile-front.png"), #f8f8f8;
 }
 
-#intro {
-  padding: 15px;
-}
-
 #hello {
   margin: 12px;
   color: #ec5242;
@@ -172,6 +168,7 @@ hr {
 }
 
 #intro {
+  padding: 15px;
   width: 97%;
   color: #515151;
   line-height: 17px;
@@ -202,14 +199,14 @@ hr {
   color: #868686;
   font-size: 1em;
   font-weight: 700;
-  letter-spacing: -0.3px; 
+  letter-spacing: -0.3px;
   align-self: flex-start;
 }
 
 /* Program Planning */
 
 #program {
-  background: url("./Assets/pattern.png") 30px 30px repeat, #282B32;
+  background: url("./Assets/pattern.png") 30px 30px repeat, #282b32;
   align-items: center;
 }
 
@@ -265,7 +262,7 @@ hr {
   font-weight: 700;
   font-size: 0.65em;
   line-height: 18px;
-  letter-spacing: 0.6px; 
+  letter-spacing: 0.6px;
 }
 
 .program-card > div {
@@ -273,7 +270,7 @@ hr {
   display: flex;
   width: auto;
   height: auto;
-  padding: 2px; 
+  padding: 2px;
 }
 
 #join {
@@ -282,7 +279,7 @@ hr {
   margin: 40px 0 40px 0;
   border-radius: 0;
   border: none;
-  background: #FF4F38;
+  background: #ff4f38;
   color: #fff;
   font-size: 0.95em;
   font-weight: 900;
@@ -302,14 +299,14 @@ hr {
 /* Featured Speakers */
 
 #featured {
-  margin: 20px 0px 10px 0;
+  margin: 20px 0 10px 0;
   justify-items: center;
-} 
+}
 
 #featured hr {
   width: 30px;
   margin: 5px 0 15px 0;
-  border: 1px solid #a04138;;
+  border: 1px solid #a04138;
 }
 
 #speakers {
@@ -339,13 +336,13 @@ hr {
   margin-left: -1.6em;
 }
 
-#speaker-detail h3{
+#speaker-detail h3 {
   font-size: 15px;
   font-weight: 700;
   letter-spacing: -0.3px;
 }
 
-#speaker-detail h5{
+#speaker-detail h5 {
   color: #f78d89;
   font-size: 0.7em;
   font-weight: 700;
@@ -371,11 +368,11 @@ hr {
   display: flex;
   justify-content: center;
   width: 95%;
-  padding: 12px 0px 12px 0px; 
+  padding: 12px 0 12px 0;
   border-radius: 4px;
   background: no-repeat 58% 55% / 10px url("./Assets/speakers/more.png") #fff;
   border: 1px solid #dcdcdc;
-  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.25);
   transition: 0.4s ease-in-out;
   margin-left: 1.2em;
   font-size: 1em;
@@ -431,7 +428,7 @@ hr {
 }
 
 #rights {
-  color: #3B3E45;
+  color: #3b3e45;
   font-size: 0.8em;
   font-weight: 400;
   line-height: 1em;
@@ -442,7 +439,8 @@ hr {
     background: url("./Assets/front.png");
   }
 
-  #hello, #schedule {
+  #hello,
+  #schedule {
     width: 70%;
   }
 
