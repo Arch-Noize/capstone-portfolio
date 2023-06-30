@@ -416,6 +416,7 @@ hr {
   align-items: center;
   justify-content: space-around;
   padding: 1.3em;
+  margin: 1em 0 1em 0;
 }
 
 #cc > div {
@@ -538,6 +539,6 @@ hr {
   }
 
   #rights {
-    font-size: 1em;
+    font-size: 1.3em;
   }
 }

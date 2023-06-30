@@ -37,7 +37,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-You can find a live version of the website [here](https://arch-noize.github.io/capstone-portfolio/)!
+You can find a live version of the website [here](https://arch-noize.github.io/capstone-portfolio/home.html)!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -131,7 +131,7 @@ You can deploy this project using:
 - Render.com
 - Netlify.com
 
-Furthermore, you can find the website live [here](https://arch-noize.github.io/portfolio-microverse/)!
+Furthermore, you can find the website live [here](https://arch-noize.github.io/capstone-portfolio/home.html)!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,7 +160,7 @@ Furthermore, you can find the website live [here](https://arch-noize.github.io/p
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [Isuues Pages](https://github.com/Arch-Noize/setup-and-mobile-first/issues)
+Feel free to check the [Isuues Pages](https://github.com/Arch-Noize/capstone-portfolio/issues)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
