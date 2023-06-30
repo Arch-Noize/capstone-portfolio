@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('styles.css');
+
+body {
+  text-align: center;
+}
+
+#front {
+  background: no-repeat top / contain url("./Assets/mobile-about.png"), #f8f8f8;
+}
+
+#hello {
+  margin: 18px 0 6px 0;
+}
+
+#hello h5 {
+  align-self: center;
+  margin-bottom: 0.5em;
+  font-size: 2em;
+}
+
+#hello h1 {
+  align-self: center;
+  margin-bottom: 1em;
+  font-size: 3em;
+}
+
+#info {
+  padding: 20px 12px 20px 12px;
+  color: #515151;
+  font-size: 1em;
+  line-height: 25px;
+  background-color: #fff;
+}
+
+#info span {
+  display: inline;
+}
+
+#contact {
+  padding: 20px 12px 20px 12px;
+  color: #515151;
+  font-size: 1.1em;
+  line-height: 25px;
+  background-color: #f8f8f8;
+}
+
+#contact a {
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+#summit {
+  display: flex;
+  margin-top: 1em;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.3em;
+  line-height: 30px;
+  letter-spacing: -0.3px;
+  justify-content: center;
+}
+
+#summit > div {
+  width: 80%;
+}
+
+#summit img {
+  width: 50%;
+}
+
+#summit p {
+  font-size: 0.85em;
+  color: #838383;
+}
+
+#summit h3 {
+  margin-top: 0.8em;
+  font-size: 1.6em;
+}
+
+#past {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+  align-items: center;
+}
+
+#concierto {
+  width: 90%;
+  padding: 3em;
+  font-weight: 900;
+  font-size: 1.4em;
+  line-height: 30px;
+  letter-spacing: -0.3px;
+  color: #fff;
+  margin-bottom: 1.6em;
+  background: linear-gradient(#ee4431c7, #ee4431c7), no-repeat left / cover url("./Assets/rawayana.jpg");
+}
+
+#partner {
+  display: flex;
+}
+
+#cc {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  #front {
+    background: no-repeat top left / contain url("./Assets/about.png"), #f8f8f8;
+  }
+
+  #info {
+    margin: 0;
+    padding: 40px 24px 40px 24px;
+    width: 85%;
+    font-size: 1em;
+  }
+
+  #hello h5 {
+    display: none;
+  }
+
+  #hello h1 {
+    margin-top: 1.6em;
+    font-size: 3.8em;
+    color: #ec5242;
+  }
+
+  #contact {
+    margin: 2em 0 3em 0;
+  }
+
+  #past {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 2em;
+    justify-content: center;
+  }
+
+  #concierto {
+    width: 40%;
+    height: 40vh;
+    font-size: 1.7em;
+  }
+
+  #past > .container {
+    justify-content: center;
+  }
+
+  #partner {
+    display: none;
+  }
+
+  #cc {
+    background-color: #2e2e2e;
+    margin: 0;
+  }
+
+  #rights {
+    color: #fff;
+  }
+
+  #cc img {
+    filter: invert();
+  }
+}
