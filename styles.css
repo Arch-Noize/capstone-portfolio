@@ -389,12 +389,13 @@ hr {
 #partner {
   background: #414246;
   color: #8f8f91;
-  padding: 1em;
+  padding: 0.6em;
   display: none;
 }
 
 #partner h3 {
-  margin-top: 1em;
+  margin-top: 0.5em;
+  font-size: 3vw;
 }
 
 #partner .container {
@@ -402,15 +403,13 @@ hr {
   flex-wrap: nowrap;
   justify-content: center;
   gap: 2.5em;
-}
-
-#partner .container > * {
-  width: 15%;
+  width: 30%;
 }
 
 #partner img {
   display: flex;
-  width: 25%;
+  width: 45%;
+  margin-bottom: 2em;
 }
 
 /* Footer */
@@ -453,13 +452,18 @@ hr {
   }
 
   #hello h1 {
-    font-size: 4em;
+    font-size: 3.6em;
     margin-left: 8px;
+    background: linear-gradient(20deg, #d24e37 10%, #d13c22 35%, #ee8876 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
   }
 
   #hello h5 {
     font-size: 3em;
     margin-left: 6px;
+    font-weight: 300;
   }
 
   .burger {
@@ -481,6 +485,10 @@ hr {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+  }
+
+  .show {
+    display: flex;
   }
 
   .card-container {
@@ -520,12 +528,14 @@ hr {
     display: grid;
     grid-template-columns: 50% 50%;
     flex-wrap: nowrap;
-    width: 90%;
+    width: 70%;
   }
 
   #partner {
     display: flex;
   }
+
+
 
   #cc {
     display: flex;

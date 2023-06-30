@@ -31,6 +31,10 @@ body {
   background-color: #fff;
 }
 
+#info span {
+  display: inline;
+}
+
 #contact {
   padding: 20px 12px 20px 12px;
   color: #515151;
@@ -56,7 +60,11 @@ body {
 }
 
 #summit > div {
-  width: 90%;
+  width: 80%;
+}
+
+#summit img {
+  width: 50%;
 }
 
 #summit p {
@@ -93,4 +101,48 @@ body {
 
 #cc {
   display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  #front {
+    background: no-repeat top left / contain url("./Assets/about.png"), #f8f8f8;
+  }
+
+  #info {
+    margin: 0;
+    padding: 40px 24px 40px 24px;
+    width: 85%;
+    font-size: 1em;
+  }
+
+  #hello h5 {
+    display: none;
+  }
+
+  #hello h1 {
+    margin-top: 1.6em;
+    font-size: 2.8em;
+    color: #ec5242;
+  }
+
+  #contact {
+    margin: 2em 0 3em 0;
+  }
+
+  #past {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 2em;
+    justify-content: center;
+  }
+
+  #concierto {
+    width: 40%;
+    height: 40vh;
+    font-size: 1.7em;
+  }
+
+  #past > .container {
+    justify-content: center;
+  }
 }
